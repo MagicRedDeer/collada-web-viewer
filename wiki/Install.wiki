@@ -1,12 +1,20 @@
-#summary One-sentence summary of this page.
+#summary How to install COLLADA Web Viewer
+=How To Embed/Install COLLADA Web Viewer=
+==Download necessary files==
 
-= Introduction =
+You need to have the appropriate O3D libraries downloaded and unpacked on your site.
+O3D download:
 
-How to install COLLADA Web Viewer
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Also you must download and unpack the COLLADA Web Viewer on your site. 
+
+Option 1: COLLADA Web Viewer release Download:
+
+*The extra directory is only optional and doesn't need to be uploaded.
+
+Option 2: Check out from source:
+git clone git://gitorious.org/collada-web-viewer/master.git master
+and copy the COLLADA Web Viewer directory to the server.
+
+
