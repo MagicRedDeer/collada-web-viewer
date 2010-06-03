@@ -6,13 +6,13 @@ Unpack and upload the colladaWebViewer folder to your site.
 Within colladaWebViewer/colladaViewer.js, changed the variable var g_rootFolder to the absolute link to the folder colladaWebViewer on your website.  
 
 In the page you want to embed it in, include these two scripts:
+{{{
 <script type="text/javascript" src="../colladawebviewer/o3djs/base.js"></script> 
 <script type="text/javascript" src="../colladawebviewer/colladaViewer.js"> </script> 
-
+}}}
 Now make a div with id = "o3d", here is an example:
-	<div id="o3d" style="width:600px; height:500px"> </div>
+	{{{<div id="o3d" style="width:600px; height:500px"> </div>}}}
 
 More detailed instruction are coming, please check back. 
 
 Any Questions?  Please comment below.
-
