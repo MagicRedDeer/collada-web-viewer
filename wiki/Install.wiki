@@ -1,21 +1,18 @@
 #summary How to install COLLADA Web Viewer
-=How To Embed/Install COLLADA Web Viewer=
+Download latest version of COLLADA Web Viewer from the downloads tab.  
 
-==Download necessary files==
+Unpack and upload the colladaWebViewer folder to your site.  
 
-You need to have the appropriate O3D libraries downloaded and unpacked on your site.
-O3D download:
+Within colladaWebViewer/colladaViewer.js, changed the variable var g_rootFolder to the absolute link to the folder colladaWebViewer on your website.  
 
+In the page you want to embed it in, include these two scripts:
+<script type="text/javascript" src="../colladawebviewer/o3djs/base.js"></script> 
+<script type="text/javascript" src="../colladawebviewer/colladaViewer.js"> </script> 
 
+Now make a div with id = "o3d", here is an example:
+	<div id="o3d" style="width:600px; height:500px"> </div>
 
-Also you must download and unpack the COLLADA Web Viewer on your site. 
+More detailed instruction are coming, please check back. 
 
-Option 1: COLLADA Web Viewer release Download:
+Any Questions?  Please comment below.
 
-*The extra directory is only optional and doesn't need to be uploaded.
-
-Option 2: Check out from source:
-git clone git://gitorious.org/collada-web-viewer/master.git master
-and copy the COLLADA Web Viewer directory to the server.
-
-so my headers for install wiki: Intro/Requirements, Download Files, Upload Files, Proxy, Embed in Page,
