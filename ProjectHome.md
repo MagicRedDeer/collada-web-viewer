@@ -1,0 +1,1 @@
+COLLADA Web Viewer renders interactable 3d scenes directly in the browser using Google's O3d api, javascript, and a php proxy.  It is able to be embedded into any website today, and has configurable interface.

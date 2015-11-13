@@ -1,0 +1,23 @@
+Download latest version of COLLADA Web Viewer from the downloads tab.
+
+Unpack and upload the colladaWebViewer folder to your site root.
+
+To install:
+  1. Move the colladaWebViewer to the root directory of your server.
+
+> 2) include both these scripts in your html document:
+```
+     <script type="text/javascript" src="colladawebviewer/o3djs/base.js"></script> 
+     <script type="text/javascript" src="colladawebviewer/colladaViewer.js"> </script> 
+```
+
+> 3) include this div where you want the viewer:
+```
+      <div id='colladaWebViewer' src= "path/to/starting/collada/file" ></div> 
+```
+
+> You will also need to have some sort of php proxy set up.  We included one as a default in colladawebviwer/getfile.php.  This is to allow cross domain loading.
+
+> For this release we have a fixed size, **unchangeable** interface.  We will be working on a way to easily modify the interface for anyone needs (size, theme, functionality).  This is on top of our todo list.  If you want to change anything before we fix this, just let us know and we can help integrate into your site.
+
+Any Questions?  Please comment below.
